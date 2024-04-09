@@ -1,0 +1,48 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: flex-start;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.question-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+}
+  
+input[type="text"] {
+  width: 500px;
+  height: 30px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  flex-grow: 1;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  width: 85px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
